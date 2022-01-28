@@ -14,7 +14,7 @@ export class TableBasicExample implements OnInit {
   dataSource = ELEMENT_DATA;
   topHeaderColumns = ['business', 'january', 'february', 'march', 'april'];
   topHeaderData = [
-    { name: 'business', display: 'Business Type / Month' },
+    { name: 'business', display: 'Type / Month' },
     { name: 'january', display: 'January' },
     { name: 'february', display: 'February' },
     { name: 'march', display: 'March' },
@@ -80,17 +80,17 @@ export interface PeriodicElement {
 
 const ELEMENT_DATA: PeriodicElement[] = [
   {
-    business: 'GE Power',
+    business: 'Hello',
     january: { AVA: 1, DID: 2, AVAEC: 4 },
     february: { AVA: 2, DID: 4, AVAEC: 0 },
   },
   {
-    business: 'GE Corporate',
+    business: 'Hi',
     january: { AVA: 3, DID: 2, AVAEC: 4 },
     february: { AVA: 1, DID: 9, AVAEC: 0 },
   },
   {
-    business: 'GE Aviation',
+    business: 'Bye',
     april: { AVA: 3, DID: 2, AVAEC: 4 },
     february: { AVA: 1, DID: 9, AVAEC: 0 },
   },
